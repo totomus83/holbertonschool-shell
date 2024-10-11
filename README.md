@@ -1,1 +1,1 @@
-script that prints the absolute path name of the current working directory.
+Project number 5 of Holberton. Basic script/shell command
