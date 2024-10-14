@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --from=vincent guillaume _hello
+chown --if=vincent guillaume _hello
