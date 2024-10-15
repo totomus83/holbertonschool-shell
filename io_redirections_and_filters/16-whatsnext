@@ -1,2 +1,2 @@
 #!/bin/bash
-grep 'root' head -n 3 | tail -n 1
+grep 'root' head -n 3
