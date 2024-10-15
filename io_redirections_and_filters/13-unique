@@ -1,0 +1,2 @@
+#!/bin/bash²:x
+sort |uniq -u
