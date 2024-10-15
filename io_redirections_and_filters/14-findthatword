@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "root" /ect/passwd | paste -sd ' '
+grep root /ect/passwd
