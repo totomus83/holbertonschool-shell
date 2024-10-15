@@ -1,2 +1,2 @@
 #!/bin/bash
-rep -v 'bin' /etc/passwd.defs
+rep -v 'bin' /etc/passwd
