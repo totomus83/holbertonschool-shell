@@ -45,3 +45,34 @@ exercice 13 :
 
 sort | uniq
 sort without argument prompts input sorts its and pipe it to unique which print unique words
+
+exercice 14 :
+
+grep 'root' /etc/passwd | xargs
+
+Cette partie de la commande recherche toutes les lignes du fichier /etc/passwd qui contiennent le mot "root". grep est un outil très utilisé pour la recherche de motifs dans des fichiers texte.
+| (pipe) :
+
+Le pipe prend la sortie de la commande précédente (ici, les lignes trouvées par grep) et l'utilise comme entrée pour la commande suivante.
+xargs :
+
+xargs prend les lignes en entrée et les concatène en une seule ligne. Par défaut, il sépare les éléments par des espaces. Cela signifie que toutes les lignes qui contiennent "root" seront affichées en une seule ligne, sans sauts de ligne.
+
+exercice 16 :
+
+--after-context=3 :
+
+Ce paramètre indique à grep d'afficher également 3 lignes qui suivent chaque ligne contenant le motif "root". Cela peut être utile si vous souhaitez voir des informations supplémentaires qui se trouvent juste après l'occurrence du motif.
+
+exercice 17 : 
+
+grep ' ' -v = inverse, exclue les lignes cotenant les caracteres entre ' '
+
+exercice 19 :
+
+tr = remplacer ou supprimer des caracteres
+option -d = supprimer
+
+exercice 21 :
+
+rev = inverser input

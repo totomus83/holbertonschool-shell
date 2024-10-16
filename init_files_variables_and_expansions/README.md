@@ -17,3 +17,14 @@ exercice 5 :
 
 lists all local variables and environment variables, and functions
 = set
+
+exercice 6 :
+
+create a new local variable
+name of the variable="value"
+
+exercice 8 :
+
+pour faire des calculs, doit mettre les valeurs entre les parenthese comme ci dessous
+$(( ... ))
+echo then outputs the result of the calculus
