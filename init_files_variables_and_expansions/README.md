@@ -28,3 +28,15 @@ exercice 8 :
 pour faire des calculs, doit mettre les valeurs entre les parenthese comme ci dessous
 $(( ... ))
 echo then outputs the result of the calculus
+
+exercice 10 :
+
+echo $(($BREATH**$LOVE))
+must put $ before the variable, and use ** to put o the power of $OTHERVARIABLE
+
+exercice 13 :
+
+printf '%.2f\n' $NUM
+
+%f = float (display decimal)
+.2 = number of decimal
